@@ -8,7 +8,7 @@ import time
 number = int(input("Enter a number to start the countdown"))
 
 #Keep looping as long as the number is greater than 0 
-while numbe >0:
+while number >0:
     print(number)  # Print the current number
     time.sleep(1)#Wait for 1 seconed befor continuing 
     number -= 1 #Subtract 1 from number each time
