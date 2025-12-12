@@ -8,14 +8,19 @@ Produce your own Python code beneath each prompt.
 # BEGINNER LEVEL
 # 1. Print each number from 1 to 20 using a for loop.
 # Write your code below:
-
+for i in (1,21):
+  print(i)
 
 
 # INTERMEDIATE LEVEL
 # 2. Given a list of fruits, use a for loop to print only the fruits that have more than 5 letters.
+for i in fruits:
+  if len(i) >4:
+  print(i)
+fruits  = ["apple","kiwi","banana", "pear", "pineapple","plum"]
+
 fruits = ["apple", "kiwi", "banana", "pear", "pineapple", "plum"k\\
 # Write your code below:
-
 
 
 # ADVANCED LEVEL
@@ -26,6 +31,11 @@ numbers = [12, 5, 8, 19, 44, 2, 7, 18, 33, 50]
 # "Odd: Y"
 # Write your code below:
 
+for i in numbers:
+    for i % 2 == 0:
+    even += 1
+eles
+    odd += 1
 
 
 # EXPERT LEVEL
